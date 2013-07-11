@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  
+  "description": "Visualization the history google chrome.",
+  "version": "0.1",
+  
+  "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   
+   "permissions": [ "history", "tabs", "chrome://favicon/" ],
+   
+   "default_locale": "en",
+   "name": "__MSG_ext_name__",
+   "description": "__MSG_desc__",
+   
+   "options_page": "options.html",
+   
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "512": "icon_512.png"
+  }   
+}

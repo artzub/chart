@@ -1,0 +1,10 @@
+{   
+   "desc": {
+      "description": "desc",
+      "message": "Visualization the history of Google Chrome web browser."
+   }, 
+   "ext_name": {
+      "description": "Visualization the history of Google Chrome web browser.",
+      "message": "History Visualizer"
+   }
+}

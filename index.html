@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>History Visualizer</title>
+	<style>
+	body, html {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	
+	#vis {
+		width: 100%;
+		height: 100%;
+	}
+	
+	circle {
+		fill: #fff;
+		stroke: #000;
+		stroke-width: .5;
+	}
+	line {
+		fill: none;
+		stroke: steelblue;
+		stroke-width: 1.5;
+	}
+	</style>
+    <script src="js/d3.v3.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div id="vis">
+  <script src="js/arboretum.js"></script>
+</div>
+<div id="main">
+    <script src="js/history.js"></script>
+</div>
+</body>
+</html>
